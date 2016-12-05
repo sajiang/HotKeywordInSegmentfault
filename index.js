@@ -47,8 +47,6 @@ function startRequest(x) {
 
             if (i <= 40) {                
                 fetchPage(str);
-                console.log(i);
-                console.log(keywordObj);
             }else{
               savedContent(keywordObj);
               
